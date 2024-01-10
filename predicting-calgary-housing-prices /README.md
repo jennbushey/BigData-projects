@@ -1,4 +1,4 @@
-# Housing Permits
+# Predicting Calgary Housing Prices
 
 [![Language](https://img.shields.io/badge/language-PySpark-blue.svg)](https://www.python.org/)
 
@@ -39,9 +39,9 @@ Working in a team of 5 we were able to use a google colab notebook to preprocess
 -   Dwelling Type
 -   Land Size
 
-### Presentations
+### Presentations:
 
-#### [Presentation 1]()
+#### [Presentation 1](https://github.com/jennbushey/BigData-projects/blob/main/predicting-calgary-housing-prices%20/Presentation%201.pdf)
 
 The presentation introduces our team and briefly describe the following information:
 
@@ -50,15 +50,15 @@ The presentation introduces our team and briefly describe the following informat
 -   The target variable we are modeling and potentially interesting features of the dataset we will be focusing on during the project.
 -   Any anticipated EDA and/or modeling techniques we might use.
 
-#### [Presentation 2]()
+#### [Presentation 2](https://github.com/jennbushey/BigData-projects/blob/main/predicting-calgary-housing-prices%20/Presentation%202.pdf)
 
 The presentation includes how we've prepared the data for modeling (i.e., any cleaning, transformations, feature engineering, or Exploratory Data Analysis).
 
-#### [Presentation 3]()
+#### [Presentation 3](https://github.com/jennbushey/BigData-projects/blob/main/predicting-calgary-housing-prices%20/Presentation%203.pdf)
 
 The final presentation shows our progress after the second set of presentations. In this presentation, the data has been fully preprocessed and the results of EDA are beginning to be defined. Moreover, by now, we have completed the preliminary modeling phase, where we have tried multiple models and/or model-tuning techniques and have insight into what is working for the data. We outline the remaining steps to take and any steps we need to redo based on the current results.
 
-### [Final Report]()
+### [Final Report](https://github.com/jennbushey/BigData-projects/blob/main/predicting-calgary-housing-prices%20/Final%20Report.pdf)
 
 The report comprehensively, yet concisely, describes how we acquired, processed, and modeled the data.
 
