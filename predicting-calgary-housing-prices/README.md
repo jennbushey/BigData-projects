@@ -2,19 +2,11 @@
 
 [![Language](https://img.shields.io/badge/language-PySpark-blue.svg)](https://www.python.org/)
 
-### The Assignment
-
-Projects should propose solutions that are scalable, i.e., "big data" solutions. You can use "small data" to develop, test, and demo your solutions, but your solutions should scale to larger datasets. This implies that you need to use a big data framework, e.g., Hadoop or Spark or Flink, to implement your solution.
-
-Apart from evaluating your project quality and progress, the goal of this presentation and the following presentations will be to facilitate collective learning through a variety of big data problems and approaches.
-
-### Our Solution
-
-Working in a team of 5 we were able to use a google colab notebook to preprocess each data source using resilient distributed datasets (RDD), perform basic exploratory data analysis big data using pyspark, and perform regression analysis using the PySpark Machine Learning Library (MLlib).
+This project utilizes PySpark for scalable big data solutions to predict housing prices in Calgary. The team processed data using resilient distributed datasets (RDD) and conducted exploratory data analysis (EDA) and regression analysis with PySpark's MLlib.
 
 #### Feature Category Explanation
 
-**Economic Indicators** - Large-scale economic indicators that may affect the housing prices in an economy. Ie employment rate, a city’s wealth, its population and growth, etc
+**Economic Indicators** - Large-scale economic indicators that may affect the housing prices in an economy. Ie employment rate, a city’s wealth, its population and growth, etc.
 
 -   Average Home Price
 -   Unemployment Rate
@@ -24,7 +16,7 @@ Working in a team of 5 we were able to use a google colab notebook to preprocess
 -   Inflation Rate
 -   Assessed Year
 
-**Group Price Indicators** - Factors that may influence a house price broadly based on other, location based factors. Ie neighborhood, density, crime rate, distance to downtown, desirability, etc
+**Group Price Indicators** - Factors that may influence a house price broadly based on other, location based factors. i.e. neighborhood, density, crime rate, distance to downtown, desirability, etc.
 
 -   Density by Community
 -   Community Name/Code
@@ -32,35 +24,22 @@ Working in a team of 5 we were able to use a google colab notebook to preprocess
 -   Resident Count
 -   New Development by Community
 
-**Individual Price Indicators** - Individual factors that may influence a house price, ie land size, type of dwelling
+**Individual Price Indicators** - Individual factors that may influence a house price, i.e. land size, type of dwelling
 
 -   Property Type
 -   Land Use Designation
 -   Dwelling Type
 -   Land Size
 
-### Presentations:
+### Presentations
 
-#### [Presentation 1](https://github.com/jennbushey/BigData-projects/blob/main/predicting-calgary-housing-prices%20/Presentation%201.pdf)
+-   [Presentation 1:](./Presentation%201.pdf) Introduction and problem importance.
+-   [Presentation 2:](./Presentation%202.pdf) Data preparation, cleaning, and transformation.
+-   [Presentation 3:](./Presentation%203.pdf) EDA, modelling, and results.
 
-The presentation introduces our team and briefly describe the following information:
+### Final Report
 
--   The chosen big data problem and why it is important to study.
--   The source(s) for data collection.
--   The target variable we are modeling and potentially interesting features of the dataset we will be focusing on during the project.
--   Any anticipated EDA and/or modeling techniques we might use.
-
-#### [Presentation 2](https://github.com/jennbushey/BigData-projects/blob/main/predicting-calgary-housing-prices%20/Presentation%202.pdf)
-
-The presentation includes how we've prepared the data for modeling (i.e., any cleaning, transformations, feature engineering, or Exploratory Data Analysis).
-
-#### [Presentation 3](https://github.com/jennbushey/BigData-projects/blob/main/predicting-calgary-housing-prices%20/Presentation%203.pdf)
-
-The final presentation shows our progress after the second set of presentations. In this presentation, the data has been fully preprocessed and the results of EDA are beginning to be defined. Moreover, by now, we have completed the preliminary modeling phase, where we have tried multiple models and/or model-tuning techniques and have insight into what is working for the data. We outline the remaining steps to take and any steps we need to redo based on the current results.
-
-### [Final Report](https://github.com/jennbushey/BigData-projects/blob/main/predicting-calgary-housing-prices%20/Final%20Report.pdf)
-
-The report comprehensively, yet concisely, describes how we acquired, processed, and modeled the data.
+-   [Final Report:](./Final%20Report.pdf) Comprehensive overview of data acquisition, processing, and modeling.
 
 ### Data sources:
 
